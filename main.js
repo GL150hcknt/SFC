@@ -10,3 +10,7 @@ function scrollFunction() {
 /*    document.getElementById("logo").style.fontSize = "35px";*/
   }
 }
+
+function ScrollDown() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
